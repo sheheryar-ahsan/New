@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(man-wearing-red-sweatshirt-and-black-pants-leaning-on-the-845434.jpg);
+	background-position: center;
+	background-size: cover;	
+	overflow-x: hidden;
+	position: relative;
+}
+.nav-bar{
+	display: flex;
+	padding: 40px 120px;
+}
+.nav-logo img{
+	width: 170px;
+	cursor: pointer;
+
+}
+.nav-links{
+	flex: 1;
+}
+.nav-links ul{
+	margin-left: 50px;
+	display: inline;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 25px; 
+	margin-top: 37px;
+}
+.nav-links ul a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px; 
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #ffc107;
+	display: block;
+	margin: auto;
+	transition: .2s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.nav-links .btn{
+	float: right;
+	margin-top: 37px;
+}
+.banner-title{
+	margin: 80px 130px;
+	color: #fff;
+}
+.banner-title h1{
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+.banner-title h1 span{
+	color: #ffc107;
+}
+.vertical-bar{
+	height: 100%;
+	background: #000;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.search-icons{
+	height: 60%;
+	width: 80px;
+}
+.search-icons .fa{
+	margin: 40px 23px;
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+}
+.social-icons{
+	height: 35%;
+	width: 80px;
+	background: #ffc107;
+	text-align: center;
+	padding-top: 27%;
+	bottom: 0;
+	position: absolute;
+}
+.social-icons .fa{
+	margin: 15px 23px;
+	display: block;
+	padding: 8px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.notifications{
+	display: flex;
+	width: 300px;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	background: #ffc107;
+	align-items: center;
+}
+.content{
+	flex-basis: 50%;
+	padding: 10px;
+}
+.notification-img{
+	flex-basis: 50%;
+
+}
+.notification-img img{
+	width: 100%;
+}
+.zoom {
+
+
+  transition: transform .2s; /* Animation */
+  
+  
+  
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}

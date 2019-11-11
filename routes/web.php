@@ -11,6 +11,21 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/', function () {
+    return view('about');
+});
+
+Route::get('/Lab', function () {
+    return view('Lab');
+});
+
+Route::get('/form', function () {
+    return view('form');
+});
+
+
+
